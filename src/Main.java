@@ -1,10 +1,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        UserService userService = new UserService();
-        userService.registerUser("Yakudza","ssssssssss", "ssssssssss");
-       UserService User1 = new UserService();
-        User1.registerUser("User001","palala","pal2ala");
+        UserService User00 = new UserService("Adam","1234567890","1234567890");
+        User00.registerUser();
+        UserService User01 = new UserService("SSS","12345","111111");
+        User01.registerUser();
 
     }
 //    1. Створити юзера.
